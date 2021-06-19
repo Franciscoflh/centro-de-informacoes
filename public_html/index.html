@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html class="multiple-block" lang="pt">           
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="content-language" content="pt" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+        <link href="//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic,latin-ext,cyrillic-ext" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/base2.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+
+        <title>Centro de informações turísticas ou de visitantes</title>
+    </head>
+
+    <body >
+
+        <header class="title">
+            <div class="col-title">
+                <h1>Centro de informações turísticas ou de visitantes</h1>
+            </div>
+        </header>
+
+        <form action="" method="post" accept-charset="utf-8" id="formulario">
+
+
+            <section class="intro first">
+                <p>
+                    Prezado Sr. / Sra.,
+                </p>
+                <p>
+                    obrigado pela sua visita. Completar este breve questionário vai nos ajudar a obter os melhores resultados.
+                </p>
+            </section>
+            <section class="last">                                                
+                <fieldset class="required">
+                    <h2>
+                        <div class="title-part">
+                            Como você utiliza o centro de informações? (Selecione apenas uma opção)
+                        </div>
+                    </h2>
+                    <div class="special-padding-row">
+                        <div class="label-cont">
+                            <label class="input-group input-group-checkbox row" >
+                                <input type="checkbox" class="hidden-inputs" name="q1" value="como um cidadão" id="check1" onclick="marca(this);"/>
+                                <span class="input-group-addon checkgroup"></span> 
+                                <span class="input-group-title">Como um cidadão</span>          
+                            </label>
+                            <label class="input-group input-group-checkbox row">
+                                <input type="checkbox" class="hidden-inputs" name="q1" value="como um turista" id="check2" onclick="marca(this);"/>
+                                <span class="input-group-addon checkgroup" ></span> 
+                                <span class="input-group-title">Como um turista </span>          
+                            </label>
+                        </div>                                                       
+                    </div>
+                </fieldset>
+                <fieldset class="required">
+                    <h2>
+                        <div class="title-part">
+                            A que faixa etária você pertence ?
+                        </div>
+                    </h2>
+                    <div class="special-padding-row">
+
+                        <div class="label-cont">
+                            <label class="input-group input-group-radio row">
+                                <input type="radio" class="hidden-inputs" name="q2" value="0-20"  />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">0-20</span>          
+                            </label>
+                            <label class="input-group input-group-radio row">
+                                <input type="radio" class="hidden-inputs" name="q2" value="21-30"  />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">21-30</span>          
+                            </label>
+                            <label class="input-group input-group-radio row">
+                                <input type="radio" class="hidden-inputs" name="q2" value="31-40"  />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">31-40</span>          
+                            </label>
+                            <label class="input-group input-group-radio row">
+                                <input type="radio" class="hidden-inputs" name="q2" value="41-50"  />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">41-50</span>          
+                            </label>
+                            <label class="input-group input-group-radio row">
+                                <input type="radio" class="hidden-inputs" name="q2" value="51-60"  />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">51-60</span>          
+                            </label>
+                            <label class="input-group input-group-radio row">
+                                <input type="radio" class="hidden-inputs" name="q2" value="Mais de 61"  />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">Mais de 61</span>          
+                            </label>
+                        </div>
+
+                    </div>
+                </fieldset>
+                <fieldset class="required">
+                    <h2>
+                        <div class="title-part">
+                            Com que frequência você utiliza o centro de informações?
+                        </div>
+                    </h2>
+                    <div class="special-padding-row">
+                        <div class="label-cont">
+                            <label class="input-group input-group-radio row">
+                                <input type="radio" class="hidden-inputs" name="q3" value="mais de uma vez por mês"  />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">Mais de uma vez por mês</span>          
+                            </label>
+                            <label class="input-group input-group-radio row">
+                                <input type="radio" class="hidden-inputs" name="q3" value="mensalmente"  />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">Mensalmente</span>          
+                            </label>
+                            <label class="input-group input-group-radio row">
+                                <input type="radio" class="hidden-inputs" name="q3" value="anualmente"  />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">Anualmente</span>          
+                            </label>
+                            <label class="input-group input-group-radio row">
+                                <input type="radio" class="hidden-inputs" name="q3" value="raramente"  />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">Raramente</span>          
+                            </label>
+                        </div>
+
+                    </div>
+                </fieldset>
+                <fieldset class="required">
+                    <h2>
+                        <div class="title-part">
+                            Para que você visita o centro de informações? (Selecione apenas uma opção)
+                        </div>
+                    </h2>
+                    <div class="special-padding-row">
+                        <div class="label-cont">
+                            <label class="input-group input-group-checkbox row">
+                                <input type="checkbox" class="hidden-inputs" name="q4" value="encontrar informações sobre a região e destinos próximos" />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">Para encontrar informações sobre a região e destinos próximos</span>          
+                            </label>
+                            <label class="input-group input-group-checkbox row">
+                                <input type="checkbox" class="hidden-inputs" name="q4" value="encontrar informações sobre eventos culturais e sociais na região" />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">Para encontrar informações sobre eventos culturais e sociais na região</span>          
+                            </label>
+                            <label class="input-group input-group-checkbox row">
+                                <input type="checkbox" class="hidden-inputs" name="q4" value="acessar a internet" />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">Para acessar a internet</span>          
+                            </label>
+                            <label class="input-group input-group-checkbox row">
+                                <input type="checkbox" class="hidden-inputs" name="q4" value="fazer cópias" />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">Para fazer cópias</span>          
+                            </label>
+                            <label class="input-group input-group-checkbox row">
+                                <input type="checkbox" class="hidden-inputs" name="q4" value="encontrar folhetos e lembranças" />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">Para encontrar folhetos e lembranças</span>          
+                            </label>
+                            <label class="input-group input-group-checkbox row">
+                                <input type="checkbox" class="hidden-inputs" name="q4" value="encontrar passeios e comentários sobre eles" />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">Para encontrar passeios e comentários sobre eles</span>          
+                            </label>
+                            <label class="input-group input-group-checkbox row">
+                                <input type="checkbox" class="hidden-inputs" name="q4" value="comprar ingressos para eventos ou roteiros especiais" />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">Para comprar ingressos para eventos ou roteiros especiais</span>          
+                            </label>
+                            <label class="input-group input-group-checkbox input-group-addon-text">
+
+                                <input type="checkbox" class="hidden-inputs" name="q4" value="outros motivos" />
+
+                                <span class="input-group-addon"></span>
+                                <span class="input-group-title">Outros</span>
+
+                            </label>
+                        </div>                                                        
+                    </div>
+                </fieldset>
+
+                <fieldset class="required">
+                    <h2>
+                        <div class="title-part">
+                            O centro de informações possuía o que você precisava?
+                        </div>
+                    </h2>
+                    <div class="special-padding-row">
+
+                        <div class="label-cont">
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-pad-md-left-0 col-pad-sm-left-0 col-xs-0">		
+                                <label class="input-group input-group-radio row">
+                                    <input type="radio" class="hidden-inputs" name="q5" value="o centro de informações possuía o que você precisava"  />
+                                    <span class="input-group-addon"></span> 
+                                    <span class="input-group-title">Sim</span>          
+                                </label>
+                            </div>		<div class="col-xs-12 col-sm-6 col-md-4 col-pad-md-left-0 col-pad-sm-left-0 col-xs-0">		
+                                <label class="input-group input-group-radio row">
+                                    <input type="radio" class="hidden-inputs" name="q5" value="o centro de informações não possuía o que você precisava"  />
+                                    <span class="input-group-addon"></span> 
+                                    <span class="input-group-title">Não</span>          
+                                </label>
+                            </div>	</div>
+
+                    </div>
+                </fieldset>
+                <fieldset class="required">
+                    <h2>
+                        <div class="title-part">
+                            Você já visitou o site do centro de informações?
+                        </div>
+                    </h2>
+                    <div class="special-padding-row">
+                        <div class="label-cont">
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-pad-md-left-0 col-pad-sm-left-0 col-xs-0">		
+                                <label class="input-group input-group-radio row">
+                                    <input type="radio" class="hidden-inputs" name="q6" value="já visitou o site"  />
+                                    <span class="input-group-addon"></span> 
+                                    <span class="input-group-title">Sim</span>          
+                                </label>
+                            </div>		<div class="col-xs-12 col-sm-6 col-md-4 col-pad-md-left-0 col-pad-sm-left-0 col-xs-0">		
+                                <label class="input-group input-group-radio row">
+                                    <input type="radio" class="hidden-inputs" name="q6" value="não visitou o site"  />
+                                    <span class="input-group-addon"></span> 
+                                    <span class="input-group-title">Não</span>          
+                                </label>
+                            </div>	
+                        </div>
+
+                    </div>
+                </fieldset>
+                <fieldset class="required">
+                    <h2>
+                        <div class="title-part">
+                            Você encontrou tudo o que procurava em nosso site?
+                        </div>
+                    </h2>
+                    <div class="special-padding-row">
+                        <div class="label-cont">
+                            <label class="input-group input-group-radio row">
+                                <input type="radio" class="hidden-inputs" name="q7" value="encontrou tudo o que procurava no site"  />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">Sim</span>          
+                            </label>
+                            <label class="input-group input-group-radio input-group-addon-text">
+                                <input type="radio" class="hidden-inputs" name="q7" value="não encontrou tudo o que procurava no site"/>
+                                <span class="input-group-addon"></span>
+                                <span class="input-group-title">Não</span>        
+
+                            </label>
+                        </div>
+
+                    </div>
+                </fieldset>
+                <fieldset class="required">
+                    <h2>
+                        <div class="title-part">
+                            Você poderia afirmar que o centro de informações foi útil ou importante em sua visita?
+                        </div>
+                    </h2>
+                    <div class="special-padding-row">
+                        <div class="label-cont">
+                            <label class="input-group input-group-radio row">
+                                <input type="radio" class="hidden-inputs" name="q8" value="foi útil ou importante na sua visita"  />
+                                <span class="input-group-addon"></span> 
+                                <span class="input-group-title">Sim</span>          
+                            </label>
+                            <label class="input-group input-group-radio input-group-addon-text">
+                                <input type="radio" class="hidden-inputs" name="q8" value="não foi útil ou importante na sua visita"  />
+                                <span class="input-group-addon"></span>
+                                <span class="input-group-title">Não </span>        
+
+
+                            </label>
+                        </div>
+
+                    </div>
+                </fieldset>
+
+                <fieldset class="required last">
+                    <h2>
+                        <div class="title-part">
+
+                            Você possui algum comentário ou sugestão sobre como podemos melhorar sua próxima visita?
+                        </div>
+                    </h2>
+                    <div class="special-padding-row">
+
+                        <label class="input-group input-group-textarea" data-for="ot[1351545]">
+                            <span class="input-group-addon"></span>
+                            <textarea class="form-control paragraph counter validate" name="q9" maxlength="1500" placeHolder="Escreva um parágrafo" id="q9"></textarea>
+                        </label>
+
+                    </div>
+                </fieldset>
+            </section>                                                        
+            <ul class="pager align">
+                <li class=""><button name="btn-enviar" value="true" type="submit" onclick="alertEscolha();">
+                        Enviar o questionário</button>
+                </li>                
+            </ul>
+        </form>
+
+        
+
+    </body>
+</html>
